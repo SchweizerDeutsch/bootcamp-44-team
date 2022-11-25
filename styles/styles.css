@@ -629,21 +629,37 @@ body {
 
 .contact-form-section {
   width: 630px;
+  background-color: #191C26;
+}
+
+.title-white {
+  color: white;
 }
 
 .booking-form-input {
   width: 270px;
   height: 24px;
+  color: white;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(157, 164, 189, 0.4);
 }
 
 .booking-form-textarea {
   width: 570px;
   height: 76px;
+  color: white;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(157, 164, 189, 0.4);
+  resize: none;
 }
 
 .booking-form-box {
   position: relative;
   margin-bottom: 44px;
+
+
 }
 
 .booking-form-box:first-child {
@@ -660,4 +676,28 @@ body {
   position: absolute;
   top: 0;
   left: 0;
+  color: rgba(157, 164, 189, 0.4);
 }
+
+.booking-form-button {
+  
+  width: 160px;
+  padding: 12px 38px;
+  color: white;
+  background-color: transparent;
+  border: 1px solid #FF6C00;
+  border-radius: 25px;
+  text-transform: uppercase;
+}
+
+
+
+
+
+
+.contact-form-section {
+  padding-top: 130px;
+  padding-bottom: 183px;
+}
+
+
