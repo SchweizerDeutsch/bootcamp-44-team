@@ -283,8 +283,8 @@
             <h2 class="title title-white">Online-booking</h2>
             <form class="booking-form">
               <div class="booking-form-box">
-                <label class="booking-form-label" for="name">name*</label>
                 <input
+                  placeholder=" "
                   class="booking-form-input"
                   id="name"
                   type="text"
@@ -293,11 +293,12 @@
                   minlength="2"
                   maxlength="20"
                 />
+                <label class="booking-form-label" for="name">name*</label>
               </div>
 
               <div class="booking-form-box">
-                <label class="booking-form-label" for="message">phone*</label>
                 <input
+                  placeholder=" "
                   class="booking-form-input"
                   id="phone"
                   type="tel"
@@ -306,11 +307,17 @@
                   minlength="10"
                   maxlength="15"
                 />
+                <label class="booking-form-label" for="phone">phone*</label>
               </div>
 
               <div class="booking-form-box">
+                <textarea
+                  placeholder=" "
+                  class="booking-form-textarea"
+                  name="message"
+                  id="message"
+                ></textarea>
                 <label class="booking-form-label" for="message">message</label>
-                <textarea class="booking-form-textarea" name="message" id="message"></textarea>
               </div>
               <button class="booking-form-button" type="submit">send</button>
             </form>
