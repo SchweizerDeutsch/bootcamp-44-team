@@ -1,4 +1,4 @@
-/* :root {
+/* :root 
   --primary-font: "Open Sans", sans-serif;
   --secondary-font: "Raleway", sans-serif;
   --primary-text-color-theme-dark: #ffffff;
@@ -281,7 +281,7 @@ body {
 /* ==================== /HERO ==================== */
 
 /* ==================== ABOUT ==================== */
-.about-container {
+/* .about-container {
   display: flex;
   justify-content: space-between;
 }
@@ -299,9 +299,9 @@ body {
 .about-section-description {
   margin-bottom: 20px;
   width: 400px;
-}
+} */
 
-.about-text {
+/* .about-text {
   width: 410px;
   font-weight: 400;
   font-size: 14px;
@@ -309,7 +309,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--secondary-text-color-theme-light);
   margin-bottom: 40px;
-}
+} */
 /* ==================== /ABOUT ==================== */
 
 /* ==================== SERVICES ==================== */

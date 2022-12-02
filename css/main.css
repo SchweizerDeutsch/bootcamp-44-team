@@ -58,11 +58,26 @@ body {
 }
 
 .container {
-  width: 1200px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
+}
+@media screen and (min-width: 448px) {
+  .container {
+    width: 448px;
+  }
+}
+@media screen and (min-width: 733px) {
+  .container {
+    width: 733px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
 }
 
 .media-list {
@@ -111,6 +126,54 @@ body {
 
 .hero-section-description {
   width: 400px;
+}
+
+.about {
+  padding: 84px 0;
+}
+
+.about-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-left-side,
+.about-right-side {
+  flex-basis: calc((100% - 30px) / 2);
+}
+
+@media screen and (min-width: 733px) {
+  .about-right-side {
+    padding-left: 30px;
+  }
+}
+
+.about-gallery {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-section-description {
+  margin-bottom: 20px;
+}
+
+.about-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.86;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color-theme-light);
+  margin-bottom: 40px;
+}
+@media screen and (min-width: 733px) {
+  .about-text {
+    margin-bottom: 77px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .about-text {
+    margin-bottom: 42px;
+  }
 }
 
 .modal-btn {
@@ -195,9 +258,15 @@ body {
 .title {
   font-family: var(--secondary-font-family);
   font-weight: 700;
-  font-size: 42px;
-  line-height: 1.17;
+  font-size: 28px;
+  line-height: 1.1785714286;
   letter-spacing: 0.05em;
+}
+@media screen and (min-width: 1200px) {
+  .title {
+    font-size: 42px;
+    line-height: 1.17;
+  }
 }
 
 .title-theme-dark {
@@ -212,9 +281,16 @@ body {
 
 .section-description {
   font-weight: 400;
-  font-size: 18px;
-  line-height: 1.67;
+  font-size: 16px;
+  line-height: 1.625;
   letter-spacing: 0.02em;
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 733px) {
+  .section-description {
+    font-size: 18px;
+    line-height: 1.67;
+  }
 }
 
 .section-description-theme-dark {
